@@ -6,7 +6,7 @@ import Calc from "../assets/calc.png";
 export default function Card() {
   return (
     <>
-      <div className="flex justify-between gap-10 mx-4 lg:mx-32 my-2 lg:my-20">
+      <div className="flex justify-evenly gap-5 lg:mx-1/2 my-2 lg:my-20">
         {/* card [0] */}
         <div className="flex justify-evenly">
           <div className="flex justify-center">
