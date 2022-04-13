@@ -6,7 +6,7 @@ import Calc from "../assets/calc.png";
 export default function Card() {
   return (
     <>
-      <div className="grid gap-10 grid-cols-3 lg:mx-32 my-2 lg:my-20">
+      <div className="flex justify-between gap-10 mx-4 lg:mx-32 my-2 lg:my-20">
         {/* card [0] */}
         <div className="flex justify-evenly">
           <div className="flex justify-center">
@@ -47,9 +47,7 @@ export default function Card() {
               <div className="flex justify-between pt-4">
                 <div className="flex justify-center">APY:</div>
                 <div className="flex">
-                  <a href="#" className="font-bold pr-2 hover:text-black">
-                    908.22%
-                  </a>
+                  <a href="#" className="font-bold pr-2 hover:text-black">908.22%</a>
                   <img className="w-4 h-6" src={Calc} alt="calc" />
                 </div>
               </div>
@@ -162,9 +160,7 @@ export default function Card() {
               <div className="flex justify-between pt-4">
                 <div className="flex justify-center">APY:</div>
                 <div className="flex">
-                  <a href="#" className="font-bold pr-2 hover:text-black">
-                    908.22%
-                  </a>
+                  <a href="#" className="font-bold pr-2 hover:text-black">908.22%</a>
                   <img className="w-4 h-6" src={Calc} alt="calc" />
                 </div>
               </div>
@@ -277,9 +273,7 @@ export default function Card() {
               <div className="flex justify-between pt-4">
                 <div className="flex justify-center">APY:</div>
                 <div className="flex">
-                  <a href="#" className="font-bold pr-2 hover:text-black">
-                    908.22%
-                  </a>
+                  <a href="#" className="font-bold pr-2 hover:text-black">908.22%</a>
                   <img className="w-4 h-6" src={Calc} alt="calc" />
                 </div>
               </div>
@@ -382,9 +376,7 @@ export default function Card() {
             <div className="flex justify-between pt-4">
               <div className="flex justify-center">APY:</div>
               <div className="flex">
-                <a href="#" className="font-bold pr-2 hover:text-black">
-                  908.22%
-                </a>
+              <a href="#" className="font-bold pr-2 hover:text-black">908.22%</a>
                 <img className="w-4 h-6" src={Calc} alt="calc" />
               </div>
             </div>
@@ -440,8 +432,7 @@ export default function Card() {
                 </svg>
                 <div class="absolute bottom-0 w-64 flex flex-col items-center hidden mb-6 group-hover:flex">
                   <span class="relative z-10 p-2 text-xs leading-none text-white whitespace-no-wrap bg-black shadow-lg">
-                    Harvest button is enabled only when your earnings is over 20
-                    SPY
+                    Harvest button is enabled only when your earnings is over 20 SPY
                   </span>
                   <div class="w-3 h-3 -mt-2 rotate-45 bg-black"></div>
                 </div>
